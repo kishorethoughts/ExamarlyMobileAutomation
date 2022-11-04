@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.examarly.LoginMainPage
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.167 s <<< FAILURE! - in org.examarly.LoginMainPage
+FillForm(org.examarly.LoginMainPage)  Time elapsed: 15.923 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9f117396-a125-4c2c-8012-3dff13e8aaf6, findElement {using=xpath, value=//android.widget.EditText[@text='Name']}]
+Capabilities {appium:app: /Users/kishore/Downloads/ex..., appium:appPackage: com.elearning.examarly, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/kishore/Downloads/ex..., automationName: uiautomator2, deviceName: emulator-5554, platformName: android}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2628, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 9f117396-a125-4c2c-8012-3dff13e8aaf6
+	at org.examarly.LoginMainPage.FillForm(LoginMainPage.java:55)
+
